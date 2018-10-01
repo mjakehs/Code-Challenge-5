@@ -4,3 +4,7 @@
 - [x]  When the submit button is clicked, you must send the name and message from the inputs to the              server to be written to a SQL Database
 - [x]  Once the message has been successfully written to the database, display all messages on the DOM,
 - [x]  If the application page is reloaded, all previous messages should appear.
+
+## Mockup
+
+![Wireframe](images/wireframe.png)
