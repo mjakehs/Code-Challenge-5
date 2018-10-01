@@ -9,10 +9,11 @@
     <title>Public Forum</title>
 </head>
 <body ng-app="ForumApp" ng-controller="ForumController as vm">
-    {{vm.message}}
+    <h1>Full Stack Messaging</h1>
+    <hr/>
     <form ng-submit="vm.postMessage(vm.newMessage)">
-        <input type="text" placeholder="your name" ng-model="vm.newMessage.name"/>
-        <input type="text" placeholder="message" ng-model="vm.newMessage.message"/>
+        <input type="text" placeholder="Name" ng-model="vm.newMessage.name"/>
+        <input type="text" placeholder="Messge" ng-model="vm.newMessage.message"/>
         <input type="submit"/>
     </form>
     <p ng-repeat="message in vm.messages">{{message.name}}: {{message.message}}</p>

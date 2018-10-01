@@ -31,5 +31,6 @@ app.controller('ForumController', ['$http', function($http) {
             alert('Error getting message');
         })
     }
-
+    
+    vm.getMessages();
 }])
